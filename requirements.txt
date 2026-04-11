@@ -1,0 +1,13 @@
+# Data Manipulation & Cleaning
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Data Acquisition & API Integration
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+
+# Data Visualization
+matplotlib>=3.7.0
+
+# Statistical Analysis
+scipy>=1.10.0
