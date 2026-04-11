@@ -24,9 +24,9 @@ To reproduce the GitHub data collection without hitting severe rate limits, you 
 
 ### 3. Run the Pipeline
 To build the dataset and view the analysis from scratch, execute the files in the following order:
-1. Run `get_github_data.py` to pull the raw commit data. *(Note: This process takes time due to API rate-limit pacing).*
+1. Run `get_github_data.py` to pull the raw commit data. (Note: This process takes time due to API rate-limit pacing).
 2. Run `get_stocks.py` to pull the macroeconomic context.
 3. Open and run all cells in `clean_data.ipynb` to format and merge the datasets.
 4. Open and run all cells in `Tech_Winter_Analysis.ipynb` to view the master timeline, baseline statistics, EDA visualizations, and hypothesis tests.
 
-*Note: This repository is actively being updated. Machine Learning methods on the dataset and final conclusions will be added in the next milestones.*
+Note: This repository is actively being updated. Machine Learning methods on the dataset and final conclusions will be added in the next milestones.
