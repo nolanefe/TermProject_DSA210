@@ -136,9 +136,9 @@ Open and run all cells in Tech_Winter_Analysis.ipynb to view the master timeline
 ---
 
 ## AI Usage Disclaimer
-In this project, I utilized AI tools (Gemini) to assist with:
+In this project, I utilized AI tool (Gemini) to assist with:
 
-Code Refactoring: Optimizing pandas merge operations and data cleaning logic.
+Code Refactoring: Optimizing Pandas merge operations and debugging GitHub API pacing scripts.
 
-Data Visualization: Assisting with matplotlib and seaborn syntax for clear, professional plot formatting.
+Data Visualization: Refining Matplotlib and Seaborn syntax for clear, professional plot formatting.
 
