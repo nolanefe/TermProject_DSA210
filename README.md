@@ -111,7 +111,7 @@ Ensure you have Python installed, then install the required dependencies by runn
 
 pip install -r requirements.txt
 
-2. Configure API Access (GitHub)
+### 2. Configure API Access (GitHub)
 
 To reproduce the GitHub data collection without hitting severe rate limits, you must use a GitHub Personal Access Token.
 
@@ -121,7 +121,7 @@ Locate the variable GITHUB_TOKEN.
 
 Replace the placeholder string with your own valid GitHub token.
 
-3. Run the Pipeline
+### 3. Run the Pipeline
 
 To build the dataset and view the analysis from scratch, execute the files in the following order:
 
@@ -135,7 +135,7 @@ Open and run all cells in Tech_Winter_Analysis.ipynb to view the master timeline
 
 ---
 
-AI Usage Disclaimer
+## AI Usage Disclaimer
 In this project, I utilized AI tools (Gemini) to assist with:
 
 Code Refactoring: Optimizing pandas merge operations and data cleaning logic.
