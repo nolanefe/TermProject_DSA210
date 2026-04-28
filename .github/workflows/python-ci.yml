@@ -1,0 +1,28 @@
+name: CI Build
+
+# trigger on main updates
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Set up Python 3.11
+      uses: actions/setup-python@v5
+      with:
+        python-version: "3.11"
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+
+    # a check for now to make sure the env builds
+    - name: Run setup check
+      run: |
+        echo "Dependencies installed successfully."
